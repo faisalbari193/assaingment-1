@@ -6,7 +6,10 @@
     font-family: "Open Sans", serif;
     font-optical-sizing: auto;
     font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
   }
+  
 /* banner styles */
 .part-1{
     display: flex;
@@ -36,4 +39,64 @@
     color: white;
     padding: 17px 34px;
     border-radius: 8px;
+}
+/* main section style */
+
+/* .main-1{
+    display: flex;
+    flex-direction: column;
+    margin-right: 160px;
+    margin-left: 160px;
+}
+.main-1 h2{
+    font-size: 40px;
+    font-weight: 700;
+} */
+.main-2{
+    display: flex;
+    text-align: start;
+    flex-direction: column;
+    margin-right: 160px;
+    margin-left: 160px;
+}
+.vision h1{
+      font-size: 40px;
+      font-weight: 700;
+      border: 10px solid white;
+}
+.vision h1 p{
+    padding: 24px;
+}
+.main-3{
+    display: flex;
+   justify-content: space-around;
+   margin-top: 32px; 
+}
+.box-5{
+    text-align: justify;
+    width: 410px;
+    height: 325px;
+    /* border: 1px solid grey; */
+    border-radius: 16px;
+    padding: 32px;
+    background-color: #99d3f5;
+    /* box-shadow:  4px 4px 8px grey */
+}
+.box-6{
+    text-align: justify;
+    width: 410px;
+    height: 325px;
+    /* border: 1px solid grey; */
+    border-radius: 16px;
+    padding: 32px;
+    background-color: #e7f599;
+}
+.box-7{
+    text-align: justify;
+    width: 410px;
+    height: 325px;
+    /* border: 1px solid grey; */
+    border-radius: 16px;
+    padding: 32px;
+    background-color: #99d3f5;
 }
