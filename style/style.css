@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.open-sans-normal {
+    font-family: "Open Sans", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+/* banner styles */
+.part-1{
+    display: flex;
+    justify-content: space-around;
+     align-items: center;
+    border: 0px solid;
+    border-radius: 24px;
+    background-color: #C6E4D6;
+    background-position: center;
+    margin:  120px 280px;
+    width: 1280px;
+    height: 560px;
+}
+.part-1-doc h6{
+  font-size: 24px;
+  font-weight: 500;
+  opacity: 0.6;
+}
+.part-1-doc p{
+    font-size: 56px;
+    font-weight: 700;
+}
+.part-1-doc button{
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #006A50;
+    color: white;
+    padding: 17px 34px;
+    border-radius: 8px;
+}
