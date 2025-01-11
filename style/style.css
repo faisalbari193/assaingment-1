@@ -45,18 +45,7 @@
     border-radius: 8px;
     cursor: pointer;
 }
-/* main section style */
 
-/* .main-1{
-    display: flex;
-    flex-direction: column;
-    margin-right: 160px;
-    margin-left: 160px;
-}
-.main-1 h2{
-    font-size: 40px;
-    font-weight: 700;
-} */
 .main-2{
     display: flex;
     justify-content: center;
@@ -252,20 +241,25 @@
 }
 .donate h1{
     margin-top: 80px;
+    font-size:40px ;
+    font-weight: 700;
 }
 .donate p{
     margin-top: 24px;
 }
-.btns button{
+ .btn-1{
     margin-top: 32px;
-    padding: 30px;
-    gap: 24px;
-    border: 0px solid;
+    border: 0px solid ;
+    background-color:#98ecc6;
     border-radius: 16px;
-    font-size:40px ;
-    font-weight: 700;
+    padding: 32px;
+    color: #000000;
+    font-size: 30px;
+    font-weight: 600;
+    gap:24px ;
 }
-.btn button:hover{
+
+.btns button:hover{
     background-color: tomato;
 }
 .donate input{
@@ -275,13 +269,60 @@
 }
 .donate input[type="text"]{
     text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    gap: 10px;
 }
-.donate-btn{
+ .btn button{
     margin-top: 32px;
-    border: 0px solid ;
-    background-color: #006A50;
+    background-color:#006A50;
+    color: #C6E4D6;
+    border: 0px solid;
     border-radius: 8px;
     padding: 17px 34px;
+    font-size:18px ;
+    font-weight: 500;
+} 
+.subscribe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    border-radius: 24px;
+    background-color: #C6E4D6;
+    margin-top: 80px;
+}
+.up{
+    margin: 20px;
+}
+.up h1{
+    margin-top: 5px;
+    margin-bottom: 16px;
+    font-size: 40px;
+    font-weight: 700;
+}
+.up p{
+    font-size: 16px;
+    font-weight: 400;
+}
+.subscribe input[type="email"]{
+    width: 600px;
+    height: 55px;
+    border-radius: 0px 0px 5px 5px;
+}
+.subscribe input[type="submit"]{
+    width: 150px;
+    height: 56px;
+    border: 0px solid;
+    border-radius: 0px 5px 5px 0px;
+    background-color: #006A50;
     color: #C6E4D6;
-    opacity: 100%;
+    font-size: 18px;
+    font-weight:400;
+    margin-left: -4px;
+}
+.subscribe p{
+ margin-top: 24px;
+ margin-bottom: 80px;
 }
