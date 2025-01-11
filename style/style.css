@@ -8,14 +8,7 @@
     font-variation-settings:
       "wdth" 100;
 }
-/* .open-sans-normal {
-    font-family: "Open Sans", serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-    font-variation-settings:
-      "wdth" 100;
-  } */
+
   
 .all{
     width: 1280px;
@@ -339,17 +332,13 @@
     color: #C6E4D6;
     font-size: 18px;
     font-weight:400;
-    margin-left: -6px;
+    margin-left: -5px;
 }
 .subscribe p{
  margin-top: 24px;
  margin-bottom: 80px;
 }
-.subscribe input[type="placeholder"]{
-    font-size: 16px;
-    font-weight: 400;
-    padding: 18px 40px;
-}
+
 footer{
     display: flex;
     justify-content: center;
