@@ -187,17 +187,21 @@
 }
 .box-1-right{
     border: 0px solid;
-    border-radius: 40px;
     padding: 48px;
     width: 400px;
     height: 300px;
 }
+.box-1-right img{
+    border-radius: 5%;
+}
 .box-3-right{
     border: 0px solid;
-    border-radius: 24px;
     padding: 48px;
     width: 400px;
     height: 300px;
+}
+.box-3-right img{
+    border-radius: 5%;
 }
 .box-1-left button{
      margin-top: 32px;
@@ -240,10 +244,12 @@
 }
 .box-2-left{
     border: 0px solid;
-    border-radius: 40px;
     padding: 48px;
     width: 400px;
     height: 300px;
+}
+.box-2-left img{
+    border-radius: 5%;
 }
 .donate{
     display: flex;
@@ -322,18 +328,18 @@
 .subscribe input[type="email"]{
     width: 600px;
     height: 55px;
-    border-radius: 0px 0px 5px 5px;
+    border-radius: 10px 0px 0px 10px;
 }
 .subscribe input[type="submit"]{
     width: 150px;
     height: 56px;
     border: 0px solid;
-    border-radius: 0px 5px 5px 0px;
+    border-radius: 0px 10px 10px 0px;
     background-color: #006A50;
     color: #C6E4D6;
     font-size: 18px;
     font-weight:400;
-    margin-left: -4px;
+    margin-left: -5px;
 }
 .subscribe p{
  margin-top: 24px;
